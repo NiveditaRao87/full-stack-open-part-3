@@ -1,0 +1,6 @@
+PUT http://localhost:3001/api/persons/5f158ff8e95a2d2ed4da7155
+Content-Type: application/json
+
+{"name":"Agent Carter","number":"12-33-6789"}
+
+# test Validations name number reqd, number > 7, name > 2

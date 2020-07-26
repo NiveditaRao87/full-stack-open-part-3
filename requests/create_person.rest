@@ -2,6 +2,7 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Sophie Alpert",
-    "number": "12-34345-3"
+    "name": "Nick Fury",
+    "number": "12-0000001"
 }
+# Validation error name required and unique, number required, number more than 8, name more than 3
